@@ -1,6 +1,6 @@
 {
   "name": "json-hardwire",
-  "version": "1.5.3",
+  "version": "0.1.0",
   "description": "Stringify your JSON at max speed by hardwiring your schema",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "precommit": "test",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastify/fast-json-stringify.git"
+    "url": "git+https://github.com/japrescott/json-hardwire.git"
   },
   "keywords": [
     "json",
@@ -21,9 +21,9 @@
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fastify/fast-json-stringify/issues"
+    "url": "https://github.com/japrescott/json-hardwire/issues"
   },
-  "homepage": "https://github.com/fastify/fast-json-stringify#readme",
+  "homepage": "https://github.com/japrescott/json-hardwire#readme",
   "devDependencies": {
     "benchmark": "^2.1.4",
     "is-my-json-valid": "^2.17.2",
@@ -34,7 +34,6 @@
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
-    "ajv": "^6.5.0",
     "deepmerge": "^2.1.0",
     "flatstr": "^1.0.8"
   }
