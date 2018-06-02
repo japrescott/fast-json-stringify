@@ -1,11 +1,11 @@
 {
-  "name": "fast-json-stringify",
+  "name": "json-hardwire",
   "version": "1.5.3",
-  "description": "Stringify your JSON at max speed",
+  "description": "Stringify your JSON at max speed by hardwiring your schema",
   "main": "index.js",
   "scripts": {
     "benchmark": "node bench.js",
-    "test": "standard && tap -j4 test/*.test.js"
+    "test": "tap -j4 test/*.test.js"
   },
   "precommit": "test",
   "repository": {
@@ -30,12 +30,12 @@
     "long": "^4.0.0",
     "pre-commit": "^1.2.2",
     "proxyquire": "^2.0.0",
-    "standard": "^11.0.1",
     "tap": "^12.0.0",
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
     "ajv": "^6.5.0",
-    "deepmerge": "^2.1.0"
+    "deepmerge": "^2.1.0",
+    "flatstr": "^1.0.8"
   }
 }
